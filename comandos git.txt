@@ -32,3 +32,6 @@ git log --stat --> muestra los logs de los commits realizados y el número de bi
 git show -> diferencias entre el commit actual con el commit anterior.
 git branch nombreBranch -> crea un nuevo branch.
 git checkout nombreBranch -> cambiamos al branch especificado.
+git log nombreBranch -> muestra los logs del branch especificado.
+git merge nombreBranch -> hace el merge desde el branch que nos encontramos con el branch especificado.
+git remote add origin url -> copiamos un repositorio remoto a partir de la url
