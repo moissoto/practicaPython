@@ -1,0 +1,42 @@
+comandos git
+ls                              -> muestra todos los archivos contenidos en la ruta.
+ls -l                           -> muwestra todos los archivos contenidos en la ruta con los permisos.
+pqd                             -> saber en que ruta estamos posicionados.
+cd                              -> comando para cambiar de directorio.
+cat +  nombre del archivo       -> mostrar el contenido del archivo.
+history                         -> muestra la lista de todos los comandos escritos.
+comando -- help                 -> muestra todos los posibles comandos.
+touch nombreArchivo.extension   -> crea un archivo con la extensión especificada.
+git init                        -> inicia un repositorio de git en la ruta donde nos localicemos.
+git status                      -> muestra los estatus de los archivos, si hay cambios por aplicar.
+git add nombreArchivo           -> agrega los cambios que no se han aplicado en un archivo en especifico.
+git add .                       -> agrega los cambios de un directorio completo .
+git log                         -> muestra el historial de los commit realizados.
+code nombreArchivo              -> abre el editor visual Studio Code con el contenido del archivo.
+git rm nombreArchivo            -> elimina un archivo.
+git rm --cached nombreArchivo   -> borrar archivo cuando tenga cambios pendientes en caché.
+git checkout idCommit           -> ir a un commit anterior con/sin cambios. (moverce entre los commits)
+git commit -m                   -> guarda los cambios en el repositorio.
+git branch                      -> muestra los branches.
+git config                      -> muestra los comandos para la configuración de git.
+git config --list --show-config -> muestra el directorio donde se guardan las configuraciones de git.
+tecla q                         -> para salir del historial de commits (git log).
+git show                        -> muestra los cambios realizados en el último commit.
+git commit                      -> agrega los cambios realizados y se puede agregar comentario multilínea.
+git diff idCommit1 idCommit2    -> ver las diferencias entre dos commits en específico.
+git reset idCommit --hard       -> cambia al commit indicado, borrando los commits que están después del commit especificado en el comando.
+ls -al                          -> se visualizan todos los archivos y carpetas incluidos los ocultos.
+git commit -a                   -> ejecuta el commit y el add en un solo comando.
+git commit -am "comentario"     -> ejecuta el commit y el add en un solo comando con comentario. 
+git log --stat                  -> muestra los logs de los commits realizados y el número de bites.
+git show                        -> diferencias entre el commit actual con el commit anterior.
+git branch nombreBranch         -> crea un nuevo branch.
+git checkout nombreBranch       -> cambiamos al branch especificado.
+git log nombreBranch            -> muestra los logs del branch especificado.
+git merge nombreBranch          -> hace el merge desde el branch que nos encontramos con el branch especificado.
+git remote add origin urlOrigin -> copiamos un repositorio remoto a partir de la url.
+git push origin master          -> copia los archivos de local al repositorio remoto.
+git pull origin main --allow-unrelated-histories -> fetch entre las ramas origin y main(remote)
+git remote set-url urlOrigin    -> sustituir el origin por el que existe actualmente.
+git remote remove origin        -> borra origin.
+git pull                        -> pasa los cambios del repositorio remoto al repositorio local.
